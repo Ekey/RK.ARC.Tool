@@ -9,8 +9,6 @@ namespace RK.Unpacker
 
         static void Main(String[] args)
         {
-            UInt32 test = ArcHash.iGetHash("steam_appid.txt");
-
             Console.Title = m_Title;
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(m_Title);
